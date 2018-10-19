@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链家二手房</title>
+	<link rel="stylesheet" href="./css/commom.css">
+	<link rel="stylesheet" href="./css/secondhand.css">
+	<link rel="stylesheet" href="./iconfont/iconfont.css">
+	<link rel="shortcut icon" href="./images/icon.ico">
+</head>
+<body>
+	<div class="lianjia" id="top">
+	<!--头部开始 -->
+		<div class="background1">
+			<div class="one">
+				<div class="one1">
+					<a href="./index.html">首页</a>
+					<a href="javascript:void(0)">二手房</a>
+					<a href="./newhouse.html">新房</a>
+					<a href="javascript:void(0)">租房</a>
+					<a href="javascript:void(0)">旅居</a>
+					<a href="javascript:void(0)">海外</a>
+					<a href="javascript:void(0)">小区</a>
+					<a href="javascript:void(0)">经纪人</a>
+					<a href="javascript:void(0)">指南</a>
+					<a href="javascript:void(0)">房价</a>
+					<a href="javascript:void(0)">工具</a>
+					<a href="javascript:void(0)">经验</a>
+					<a href="javascript:void(0)">发布房源</a>
+					<a href="javascript:void(0)">企业汇</a>
+				</div>
+				<div class="one2">
+					<span>热线电话1010-9666</span>
+					<span>|</span>
+					<a href="javascript:void(0)">登录</a>/
+					<a href="javascript:void(0)">注册</a>
+				</div>
+			</div>
+		</div>
+	<!-- 头部结束 -->
+		<div class="background2">
+			<div class="two">
+				<div class="two1">
+					<img src="./images/secondhand/lianjia.png" alt="这是链家logo">
+					<input type="text" placeholder="请输入区域，商圈名或小区名开始找房" name="name">
+					<a href="javascript:void(0)" id="two1">
+						<img src="./images/secondhand/sousuo.png" alt="这是搜索logo">
+					</a>
+					<a href="javascript:void(0)">在售</a>
+					<a href="javascript:void(0)">成交</a>
+					<a href="javascript:void(0)">小区</a>
+					<a href="javascript:void(0)">房价</a>
+					<a href="javascript:void(0)">地图找房</a>
+				</div>	
+				<div class="two2">
+					<span>选择位置</span>
+					<a id="two21">按区域∧</a>
+					<a id="two22">按地铁线∨</a>
+					<div class="two21">
+						<a href="javascript:void(0)">东城</a>
+						<a href="javascript:void(0)">西城</a>
+						<a href="javascript:void(0)">朝阳</a>
+						<a href="javascript:void(0)">海淀</a>
+						<a href="javascript:void(0)">丰台</a>
+						<a href="javascript:void(0)">石景山</a>
+						<a href="javascript:void(0)">通州</a>
+						<a href="javascript:void(0)">昌平</a>
+						<a href="javascript:void(0)">大兴</a>
+						<a href="javascript:void(0)">亦庄开发区</a>
+						<a href="javascript:void(0)">顺义</a>
+						<a href="javascript:void(0)">房山</a>
+						<a href="javascript:void(0)">门头沟</a>
+						<a href="javascript:void(0)">平谷</a>
+						<a href="javascript:void(0)">怀柔</a>
+						<a href="javascript:void(0)">密云</a>
+						<a href="javascript:void(0)">延庆</a>
+						<a href="javascript:void(0)">燕郊</a>
+						<a href="javascript:void(0)">香河</a>
+					</div>
+					<div class="two22">
+						<a href="javascript:void(0)">1号线</a>
+						<a href="javascript:void(0)">2号线</a>
+						<a href="javascript:void(0)">4号线</a>
+						<a href="javascript:void(0)">5号线</a>
+						<a href="javascript:void(0)">6号线</a>
+						<a href="javascript:void(0)">7号线</a>
+						<a href="javascript:void(0)">8号线</a>
+						<a href="javascript:void(0)">9号线</a>
+						<a href="javascript:void(0)">10号线</a>
+						<a href="javascript:void(0)">13号线</a>
+						<a href="javascript:void(0)">14号线(东段)</a>
+						<a href="javascript:void(0)">14号线(西段)</a>
+						<a href="javascript:void(0)">15号线</a>
+						<a href="javascript:void(0)">16号线</a>
+						<a href="javascript:void(0)">八通线</a>
+						<a href="javascript:void(0)">亦庄线</a>
+						<a href="javascript:void(0)">昌平线</a>
+						<a href="javascript:void(0)">房山线</a>
+						<a href="javascript:void(0)">机场线</a>
+						<a href="javascript:void(0)">燕房线</a>
+						<a href="javascript:void(0)">S1线</a>
+						<a href="javascript:void(0)">西郊线</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="background3">
+			<div class="four">
+				<div class="four1">
+					<span>按总价</span>
+					<span>(万)</span>
+					<input type="text" name="zongjia1" value="0">
+					<span>-</span>
+					<input type="text" name="zongjia2" value="2000">
+					<a href="javascript:void(0)">确定</a>
+					<img src="./images/secondhand/anzongjia.png" alt="这是按总价图片">
+					<p>拖动按钮选择房屋售价</p>
+				</div>
+				<div class="four2">
+					<span>按面积</span>
+					<span>(平)</span>
+					<input type="text" name="mianji1" value="0">
+					<span>-</span>
+					<input type="text" name="mianji2" value="200">
+					<img src="./images/secondhand/anmianji.png" alt="这是按面积图片">
+					<p>拖动按钮选择房屋面积</p>
+				</div>
+				<div class="four3">
+					<span>按房型</span>
+					<span>已选择:</span>
+					<img src="./images/secondhand/anfangxing.png" alt="这是按房型图片">
+					<input type="checkbox" name="housetype" value="type1" id="type1">
+					<label for="type1">一室</label>
+					<input type="checkbox" name="housetype" value="type2" id="type1">
+					<label for="type2">二室</label>
+					<input type="checkbox" name="housetype" value="type3" id="type1">
+					<label for="type3">三室</label>
+					<input type="checkbox" name="housetype" value="type4" id="type1">
+					<label for="type4">四室</label>
+					<input type="checkbox" name="housetype" value="type5" id="type1">
+					<label for="type5">五室及以上</label>
+				</div>
+			</div>
+		</div>
+		<div class="background4">
+			<div class="body">
+				<div class="five">
+					<select name="yongtu" id="">
+						<option value="用途">用途</option>
+					</select>
+					<select name="quanshu" id="">
+						<option value="权属">权属</option>
+					</select>
+					<select name="louceng" id="">
+						<option value="楼层">楼层</option>
+					</select>
+					<select name="chaoxiang" id="">
+						<option value="朝向">朝向</option>
+					</select>
+					<select name="louling" id="">
+						<option value="楼龄">楼龄</option>
+					</select>
+					<select name="leixing" id="">
+						<option value="类型">类型</option>
+					</select>
+					<select name="gengduoxuanxiang" id="">
+						<option value="更多选项">更多选项</option>
+					</select>
+					<h3>
+						共找到
+						<span> 45615 </span>
+						套北京在售二手房源
+					</h3>
+					<ul>
+						<li><a href="javascript:void(0)">默认排序</a></li>
+						<li><a href="javascript:void(0)">最新</a></li>
+						<li><a href="javascript:void(0)">总价</a></li>
+						<li><a href="javascript:void(0)">房屋单价</a></li>
+						<li><a href="javascript:void(0)">面积</a></li>
+						<li><a href="javascript:void(0)">带看较多</a></li>
+					</ul>
+				</div>
+				<div class="six">
+					<input type="checkbox" name="manliangnian" value="checkbox1" id="checkbox1">
+					<label for="checkbox1">满两年</label>
+					<input type="checkbox" name="manwunian" value="checkbox2" id="checkbox2">
+					<label for="checkbox2">满五年</label>
+					<input type="checkbox" name="youxuan" value="checkbox3" id="checkbox3">
+					<label for="checkbox3">优选</label>
+					<input type="checkbox" name="xinshang" value="checkbox4" id="checkbox4">
+					<label for="checkbox4">新上</label>
+					<input type="checkbox" name="suishikanfang" value="checkbox5" id="checkbox5">
+					<label for="checkbox5">随时看房</label>
+					<input type="checkbox" name="bukanshangyefang" value="checkbox6" id="checkbox6">
+					<label for="checkbox6">不看商业房</label>
+					<input type="checkbox" name="bukandixiashi" value="checkbox7" id="checkbox7">
+					<label for="checkbox7">不看地下室</label>
+					<input type="checkbox" name="bukanchewei" value="checkbox8" id="checkbox8">
+					<label for="checkbox8">不看车位</label>
+
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/beisanhuan,nanxiang.png" alt="这是北三环,南向图片">
+						<div class="six11">
+							<a href="javascript:void(0)">北三环,南向带电梯,高层,视野采光好,单独小院...</a>
+							<div class="six111">
+								<a href="javascript:void(0)">安华里一区</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>60.57平米</span>
+								<span>/</span>
+								<span>南</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>有电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共18层)</span>
+								<span>/</span>
+								<span>1987年建塔楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">安贞</a>
+							</div>
+							<div class="six113">
+								<span>6544人关注</span>
+								<span>/</span>
+								<span>47次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>13天以前发布</span>
+							<div class="six114">
+								<span>距离8号线安华桥站857米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>520</span>
+								<span>万</span>
+								<p>单价85852元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+					<div class="six1">
+						<img src="./images/secondhand/xinjiekoupinganli.png" alt="这是新街口图片">
+						<div class="six11">
+							<a href="javascript:void(0)">新街口平安里南北通透两居&nbsp;随时看&nbsp;周期能给&nbsp;独立管理</a>
+							<div class="six111">
+								<a href="javascript:void(0)">大乘巷</a>
+								<span>/</span>
+								<span>2室1厅</span>
+								<span>/</span>
+								<span>59.6平米</span>
+								<span>/</span>
+								<span>南&nbsp;北</span>
+								<span>/</span>
+								<span>简装</span>
+								<span>/</span>
+								<span>无电梯</span>
+							</div>
+							<div class="six112">
+								<span>高楼层(共6层)</span>
+								<span>/</span>
+								<span>1989年建板楼</span>
+								<span>/</span>
+								<a href="javascript:void(0)">官园</a>
+							</div>
+							<div class="six113">
+								<span>10228人关注</span>
+								<span>/</span>
+								<span>51次带看</span>
+							</div>
+							<img src="./images/secondhand/biao.png" alt="这是一个logo">
+							<span>12天以前发布</span>
+							<div class="six114">
+								<span>距离4号线平安里站611米</span>
+								<span>房本满五年</span>
+								<span>随时看房</span>
+							</div>
+							<div class="six115">
+								<span>708</span>
+								<span>万</span>
+								<p>单价118792元/平米</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="seven">
+					<img src="./images/secondhand/ditu.png" alt="这是地图找房logo">
+					<button type="submit">试试地图找房</button>
+					<hr>
+					<img src="./images/secondhand/huanjingqu.png" alt="这是环京区域图片">
+					<p>热门问答</p>
+					<div id="seven">
+						<a href="javascript:void(0)">通州有loft便宜点的么？预算在三百万左右吧</a>
+						<p>1个回答/</p>
+						<p>昨天</p>
+					</div>
+					<div>
+						<a href="javascript:void(0)">想买一套东城区的学区房，预算在450-550之间</a>
+						<p>3个回答/</p>
+						<p>2018--7-31</p>
+					</div>
+					<div>
+						<a href="javascript:void(0)">总价600万十号线沿线，楼龄20年以内，不要学区房，不要南城</a>
+						<p>1个回答/</p>
+						<p>前天</p>
+					</div>
+					<div>
+						<a href="javascript:void(0)">换房，200万首付，还有一个首房首贷可以用</a>
+						<p>1个回答/</p>
+						<p>前天</p>
+					</div>
+					<div>
+						<a href="javascript:void(0)">总价300万，想买小二居，四环以内的可以买到吗？</a>
+						<p>1个回答/</p>
+						<p>前天</p>
+					</div>
+					<hr>
+					<div class="seven1">
+						<p>热门百科</p>
+						<a href="javascript:void(0)">更多</a>
+						<select name="baike1" id="baike1">
+							<option value="baike1">
+								<a href="javascript:void(0)">商办类项目用水用电标准是...</a>
+							</option>
+						</select>
+						<select name="baike2" id="baike2">
+							<option value="baike2">
+								<a href="javascript:void(0)">等额本息和等额本金还款哪...</a>
+							</option>
+						</select>
+						<select name="baike3" id="baike3">
+							<option value="baike3">
+								<a href="javascript:void(0)">买新房，如何办车位的产权...</a>
+							</option>
+						</select>
+						<select name="baike4" id="baike4">
+							<option value="baike4">
+								<a href="javascript:void(0)">新北京人，如何申请公租房...</a>
+							</option>
+						</select>
+						<select name="baike5" id="baike5">
+							<option value="baike5">
+								<a href="javascript:void(0)">办北京工作居住证需要什么...</a>
+							</option>
+						</select>
+						<hr>
+						<p>下载链家APP</p>
+						<img src="./images/secondhand/erweima.png" alt="这是二维码图片">
+						<p>扫描上方二维码</p>
+						<p>随时查看新房源</p>
+						<a href="javascript:void(0)">了解更多&nbsp;></a>
+					</div>
+				</div>
+				<div class="ten">
+					<a href="javascript:void(0)">链家网北京站</a>
+					<span>></span>
+					<a href="javascript:void(0)">北京二手房</a>
+					<a href="javascript:void(0)" id="ten1">1</a>
+					<a href="javascript:void(0)" id="ten2">2</a>
+					<a href="javascript:void(0)" id="ten2">3</a>
+					<span>...</span>
+					<a href="javascript:void(0)" id="ten2">100</a>
+					<a href="javascript:void(0)" id="ten2">下一页</a>
+				</div>
+			</div>
+		</div>
+		<div class="background5">
+			<div class="nine">
+				<p>推荐楼盘</p>
+				<div class="nine1">
+					<div class="nine11">
+						<img src="./images/secondhand/tuijianloupan.png" alt="这是推荐楼盘图片">
+						<span>70800</span>
+						<span>元/平</span>
+					</div>
+					<div class="nine11">
+						<img src="./images/secondhand/tuijianloupan.png" alt="这是推荐楼盘图片">
+						<span>70800</span>
+						<span>元/平</span>
+					</div>
+					<div class="nine11">
+						<img src="./images/secondhand/tuijianloupan.png" alt="这是推荐楼盘图片">
+						<span>70800</span>
+						<span>元/平</span>
+					</div>
+					<div class="nine11">
+						<img src="./images/secondhand/tuijianloupan.png" alt="这是推荐楼盘图片">
+						<span>70800</span>
+						<span>元/平</span>
+					</div>
+					<div class="nine11">
+						<img src="./images/secondhand/tuijianloupan.png" alt="这是推荐楼盘图片">
+						<span>70800</span>
+						<span>元/平</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 尾部开始 -->
+		
+		<div class="background6">
+			<div class="ten">
+				<div class="ten1">
+					<ul>
+						<li><a href="javascript:void(0)">了解链家</a></li>
+						<li><a href="javascript:void(0)">关于链家</a></li>
+						<li><a href="javascript:void(0)">联系我们</a></li>
+						<li><a href="javascript:void(0)">加入我们</a></li>
+						<li><a href="javascript:void(0)">隐私声明</a></li>
+						<li><a href="javascript:void(0)">网站地图</a></li>
+						<li><a href="javascript:void(0)">友情链接</a></li>
+						<li><a href="javascript:void(0)">经纪人登录</a></li>
+					</ul>
+					<span class="ten11">官方客服 1010 9666</span>
+				</div>
+				<div class="ten2">
+					<div class="ten21">
+						<span><a href="javascript:void(0)">城市二手房</a></span>
+						<span><a href="javascript:void(0)">城市新房</a></span>
+						<span><a href="javascript:void(0)">城市租房</a></span>
+						<span><a href="javascript:void(0)">问答</a></span>
+						<span><a href="javascript:void(0)">百科</a></span>
+						<span><a href="javascript:void(0)">热门校区</a></span>
+						<span><a href="javascript:void(0)">城市二手房推荐</a></span>
+						<span><a href="javascript:void(0)">合作与友情链接</a></span>
+					</div>
+					<div class="ten22">
+						<a href="javascript:void(0)">德佑地产</a>
+						<a href="javascript:void(0)">北京二手房</a>
+						<a href="javascript:void(0)">广州二手房</a>
+						<a href="javascript:void(0)">深圳二手房</a>
+						<a href="javascript:void(0)">天津二手房</a>
+						<a href="javascript:void(0)">成都二手房</a>
+						<a href="javascript:void(0)">南京二手房</a>
+						<a href="javascript:void(0)">杭州二手房</a>
+						<a href="javascript:void(0)">青岛二手房</a>
+						<a href="javascript:void(0)">大连二手房</a>
+						<a href="javascript:void(0)">厦门二手房</a>
+						<a href="javascript:void(0)">武汉二手房</a>
+						<a href="javascript:void(0)">重庆二手房</a>
+						<a href="javascript:void(0)">长沙二手房</a>
+						<a href="javascript:void(0)">济南二手房</a>
+						<a href="javascript:void(0)">佛手二手房</a>
+						<a href="javascript:void(0)">东莞二手房</a>
+						<a href="javascript:void(0)">西安二手房</a>
+						<a href="javascript:void(0)">石家庄二手房</a>
+						<a href="javascript:void(0)">烟台二手房</a>
+						<a href="javascript:void(0)">中山二手房</a>
+						<a href="javascript:void(0)">珠海二手房</a>
+						<a href="javascript:void(0)">惠州二手房</a>
+						<a href="javascript:void(0)">沈阳二手房</a>
+						<a href="javascript:void(0)">海口二手房</a>
+						<a href="javascript:void(0)">无锡二手房</a>
+						<a href="javascript:void(0)">合肥二手房</a>
+						<a href="javascript:void(0)">郑州二手房</a>
+					</div>
+				</div>
+				<div class="ten3">
+					<p>链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2 | © Copyright©2010-2018 链家网Lianjia.com版权所有</p>
+					<img src="./images/secondhand/gongwang.png" alt="这是公网logo">
+					<a href="javascript:void(0)">京公网安备&nbsp;11010802024019号</a>
+				</div>
+			</div>
+		</div>
+		<div class="background7">
+			<div class="eleven">
+				<a href="javascript:void(0)">
+					<img src="./images/secondhand/zaixianzixun.png" alt="这是在线咨询logo">
+				</a>
+				<a href="javascript:void(0)">
+					<span>在线咨询</span>
+				</a>
+			</div>
+		</div>
+		<div class="background8">
+			<div class="twelve">
+				<div class="twelve1">
+					<i class="iconfont icon-zhizhang4"></i>
+				</div>
+				<hr>
+				<div class="twelve1">
+					<i class="iconfont icon-shoucang"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-building"></i>
+				</div>
+				<hr>
+				<div class="twelve1">
+					<i class="iconfont icon-jianzhu1"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-icon-test1"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-safety_fill"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-saomiaoshibie380"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-weixinliaotian"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-dianhua"></i>
+				</div>
+				<div class="twelve1">
+					<i class="iconfont icon-bianji"></i>
+				</div>
+				<div class="twelve2" onclick="javascript:document.getElementById('top').scrollIntoView()">
+					<i class="iconfont icon-zhiding"></i>
+					<span>TOP</span>
+				</div>
+		</div>
+
+	<!--  -->
+	</div>
+</body>
+</html>
